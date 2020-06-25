@@ -12,7 +12,7 @@
 }
 .signup_area {
   width: 50%;
-  height: 300px;
+  height: auto;
   padding: 30px;
   top: 50%;
   left: 50%;
@@ -72,7 +72,8 @@
   outline: 0;
 }
 select{
-  width: 100%;
+  /* width: 100%; */
+  flex: 1;
   height: 40px;
   border-radius: 5px;
   padding: 10px 20px;
@@ -82,6 +83,9 @@ select{
 }
 select::placeholder{
   font-size: 20px;
+}
+select::-ms-expand {
+  display: none;
 }
 .sign_up h4 {
   text-transform: capitalize;
@@ -168,12 +172,25 @@ input[type="checkbox"]{
   color: #301446;
 }
 @media all and (max-width: 700px) {
+  .area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .area a {
+    text-decoration: none;
+    color: #301446;
+  }
   .signup_area {
     width: 90%;
     padding: 10px;
   }
   .sign_up h4 {
     text-align: center;
+  }
+  .acc_area{
+    display: none;
   }
   .bottom_text {
     text-align: center;

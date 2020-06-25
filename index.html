@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
   <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/css-demo-page.css"> -->
+  <!-- <link rel="stylesheet" href="css/grt-responsive-menu.css"> -->
   <link rel="stylesheet" href="fontAwesome/css/all.css" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/lato.css" />
@@ -24,11 +26,12 @@
           <div class="search_icon"><i class="fas fa-search"></i></div>
         </div>
         <div class="sm_menu_bar"><i class="fas fa-bars"></i></div>
+        <!-- <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button> -->
         <div class="top_menu" id="top_menu">
           <ul class="ul">
             <li><a href="index.html" class="home">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <!-- <li><a href="faq.html">FAQ/Help</a></li> -->
+            <li><a href="faq.html">FAQ/Help</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="log_in.html" class="box_log">log In</a></li>
             <li><a href="sign_up.html" class="box_log">sign Up</a></li>
@@ -37,6 +40,41 @@
       </div>
     </nav>
   </header>
+  <!-- <header>
+		<div class="menu-container">
+			<div class="grt-menu-row">
+				<div class="grt-menu-logo">
+					<a href="#" class="grt-logo"><img src="logo1.jpg"></a>
+        </div>
+        <div class="search_bar">
+          <div class="input">
+            <input type="text" placeholder="search here" class="search_size"/>
+          </div>
+          <div class="search_icon"><i class="fas fa-search"></i></div>
+        </div>
+				<div class="grt-menu-right">
+				<nav>
+				 <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
+				 <ul class="grt-menu ul">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ/Help</a></li>
+            <li class="grt-dropdown"><a>dropdown</a>
+              <ul class="grt-dropdown-list">
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2</a></li>
+                <li><a href="">Menu 3</a></li>
+              </ul>
+          </li>
+          <li><a href="log_in.html" class="box_log">log In</a></li>
+          <li><a href="sign_up.html" class="box_log">sign Up</a></li>								
+				</ul>
+				</nav>
+				</div>
+			</div>
+		</div>
+	</header> -->
   <div class="hero">
     <div class="hero_campaing" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
       <div class="h5">
@@ -54,8 +92,8 @@
         </p>
       </div>
       <div class="hero_btn">
-        <div class="up_now"><input type="text" value="sign up now"></div>
-        <div class="already_mem"><input type="text" value="member?sign in"></div>
+        <div class="up_now"><a href="sign_up.html"><input type="button" value="sign up now"></a></div>
+        <div class="already_mem"><a href="log_in.html"><input type="button" value="member?sign in"></a></div>
       </div>
     </div>
   </div>
@@ -159,8 +197,8 @@
             <i class="fas fa-lock"></i><input type="text" placeholder="Your Password">
             <i class="fas fa-lock"></i><input type="text" placeholder="Confirm Password">
           </div>
-          <div class="input_four text-box">
-            <i class="far fa-user i" ></i><select type="text" placeholder="Choose Your Category">
+          <div class="input_four">
+            <i class="far fa-user i" ></i><select class="select" type="text" placeholder="Choose Your Category">
               <option>Student</option>
               <option>Guardian</option>
             </select>
@@ -264,10 +302,10 @@
     <p>Screenclass® is a Learning Management System (LMS) developed to meet and suit the Learning Process of the Average Student/Learner in the 
       Sub – Saharan Africa bearing in mind the challenges of access to “Edutech” Facilities in the Region.</p>
   </div>
-  <div class="social">
-      <a>Terms & Conditions</i></a>
-      <a href="#">Privacy Policy</a>
-    </div>
+  <div class="social" style="text-align: center; font-size: 14px;">
+    <a>Terms & Conditions</i></a>
+    <a href="#">Privacy Policy</a>
+  </div>
 </div>
 
 
@@ -276,6 +314,7 @@
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="js/index.js"></script>
+<script src="js/grt-responsive-menu.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" 
   integrity="sha256-hBMojZuWKocCflyaG8T19KBq9OlTlK39CTxb8AUWKhY=" crossorigin="anonymous"></script>
 <script>
