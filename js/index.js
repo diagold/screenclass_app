@@ -42,6 +42,7 @@ $("#test_slid").owlCarousel({
 });
 
 
+
 var owl = $(".owl-carousel");
 owl.owlCarousel();
 // Go to the next item
@@ -72,3 +73,21 @@ $(function () {
   });
 });
  
+// $(".slide_area").owlCarousel({
+//   loop: true,
+//   autoplay: true,
+//   autoplayTimeout: 4000,
+//   autoplayHoverPause: true,
+//   autoplaySpeed: 3500,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     600: {
+//       items: 1,
+//     },
+//     1000: {
+//       items: 1,
+//     },
+//   },
+// });

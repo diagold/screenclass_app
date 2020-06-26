@@ -198,10 +198,18 @@
             <i class="fas fa-lock"></i><input type="text" placeholder="Confirm Password">
           </div>
           <div class="input_four">
-            <i class="far fa-user i" ></i><select class="select" type="text" placeholder="Choose Your Category">
+            <!-- <i class="far fa-user i" ></i><select class="select" type="text" placeholder="Choose Your Category">
               <option>Student</option>
               <option>Guardian</option>
-            </select>
+            </select> -->
+            <div class="select-box">
+              <div class="option_container">
+                <div class="option">
+                  <input type="radio" class="radio" id="student" name="student">
+                  <label for="stdent">Student</label>
+                </div>
+              </div>
+            </div>
           </div>
           <a href="#" class="submit_btn">submit</a>
         </form>
@@ -256,28 +264,59 @@
 <div class="faqhome">
 <div class="faqmenupanel">
   <div class="faqmenucenter">
-<h4 class="faqHead">FAQ</h4>
-    <div class="faqmenuflex">
-      <a href="#" class="faqa"><div class="start">
+  <!-- <h4 class="faqHead">FAQ</h4> -->
+    <div class="faqmenuflex"
+      class="text_for_get"
+      data-aos="zoom-in"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine"
+    >
+      <!-- <a href="#" class="faqa"><div class="start">
         <div class="iconfaq"><i class="fas fa-user-cog"></i></div>
         <div class="text">
           <h4>Getting Started</h4>
           <p>Getting Started fast with the learning management system</p>
         </div>
-      </div></a>
+      </div></a> -->
+  
 
-      <a href="#" class="faqa"><div class="start">
+      <!-- <a href="#" class="faqa"><div class="start">
         <div class="iconfaq"><i class="fas fa-user-check"></i></div>
         <div class="text">
           <h4>User Account</h4>
           <p>Getting Started fast with the learning management system</p>
         </div>
-      </div></a>
-       <!-- <div class="circle_two"></div>  -->
+      </div></a> -->
+      <h4 class="faqHead">Frequently Asked Questions</h4>
+      <div class="ask"><a href="faq.html">Ask Us</a></div>   
     </div>
-    <div class="ask"><a href="faq.php">Ask Us</a></div>
+    <!-- <div class="ask"><a href="faq.php">Ask Us</a></div> -->
   </div>
 </div>
+</div>
+<div class="customer">
+  <h4>What Our Students Say</h4>
+  <div class="customer_flex">
+    <div class="image">
+      <img src="img/happy_customer.jpg" alt="happy_customer">
+    </div>
+    <div class="testimony_panel">
+      <div class="slide_area">
+        <div class="say">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Hic reiciendis, similique veritatis aspernatur vel, 
+            nemo aperiam temporibus laboriosam sunt sequi Dolorum.
+          </p>
+        </div>
+        <!-- <div class="say">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Hic reiciendis, similique veritatis aspernatur vel, 
+            nemo aperiam temporibus laboriosam sunt sequi Dolorum.
+          </p>
+        </div> -->
+      </div>
+    </div>
+  </div>
 </div>
 <div class="map">
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.625660187574!2d3.36908841409424!3d6.568841024458653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9278576ba1f5%3A0x7d6096e9ecb0a842!2s3%20Alegbe%20Cl%2C%20Kosofe%2C%20Lagos!5e0!3m2!1sen!2sng!4v1590199742989!5m2!1sen!2sng" width="100%"
