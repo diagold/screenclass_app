@@ -51,7 +51,6 @@
 }
 .acc_area h6{
   font-size: 15px;
-  
 }
 .soc i{
   text-align: center;
@@ -122,6 +121,16 @@ input[type="button"] {
   cursor: pointer;
   outline: 0;
 }
+.form input[type="text"] {
+  font-size: 0.92rem;
+  color: #000;
+  font-weight: 700;
+}
+.form input::placeholder {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 input[type="button"]:hover {
   background: #301446;
   color: #ffffff;
